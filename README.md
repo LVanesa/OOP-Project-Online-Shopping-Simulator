@@ -134,5 +134,23 @@ Construit în primul rând din perspectiva utilizatorului, proiectul simulează 
 	account_settings(const char *OldUsername, const char *OldPassword, const char *OldEmail, const char *NewUsername, const char *NewPassword, const char *NewEmail);
 	view_cart();
 	order()
+# Etapa II
+## Clasele implementate pentru a doua etapă:
+### 1.CLASA DATE
+### 2.CLASA SALE - clasă abstractă
+### 3.CLASA REVIEW
+### 4.CLASA PRODUCT
+### 5.CLASA PRODUCT_ON_SALE
+### 6.CLASA PERFUME 
+### 7.CLASA LIST_OF_PRODUCTS - intefață
+### 8.CLASA OUT_OF_STOCK_EXCEPTION
+### 9.CLASA SHOPPING_CART
+### 10.CLASA WISHLIST
+### 11.CLASA USER
+### 12.CLASA PAYMENT_METHOD
+### 13.CLASA CREDIT_CARD
+### 14.CLASA PAYPAL
+### 15.CLASA ORDER
+
 
 
