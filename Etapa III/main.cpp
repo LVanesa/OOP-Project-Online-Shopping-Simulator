@@ -822,7 +822,7 @@ T parseElement(const string& element) {
     return value;
 }
 
-//Specialization of parseToken for string: This specialization handles the case when the desired type is string.
+//Specialization of parseElement for string: This specialization handles the case when the desired type is string.
 //Since string values don't require any conversion, the function simply returns the token itself.
 template<>
 string parseElement<string>(const string& element) {
