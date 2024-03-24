@@ -1,23 +1,29 @@
-# **PROIECT POO  -  APLICAȚIE DE SHOPPING ONLINE** 
-## :crystal_ball::sparkles: Welcome to my perfumery shop :sparkles::crystal_ball:
-### DESCRIERE :page_with_curl: :pencil2:
-Acest proiect scris în limbajul C++ a fost realizat în cadrul cursului de Programare Orientată pe Obiecte urmat în anul I la FMI @unibuc. Scopul acestuia a fost de a mă familiariza cu conceptele de bază ale POO, motiv pentru care a fost construit în 3 etape diferite ce cuprind cunoștințele acumulate până la un anumit punct. 
+# **OOP PROJECT - ONLINE SHOPPING SIMULATION APP**
 
-Tema de bază a proiectului este o aplicație de tip magazin online. Pornind de la această temă am adăugat proiectului meu mai mult context (sau mai bine spus personalitate:nail_care:) prin decizia de a-l transforma într-un fel de parfumerie online, ca urmare a pasiunii mele evidente pentru parfumuri și esențe.:purple_heart::cherry_blossom: 
+### DESCRIPTION :page_with_curl: :pencil2:
+This C++ project was developed as part of the Object-Oriented Programming (OOP) course during my first year at FMI @unibuc. Its primary objective was to integrate fundamental OOP concepts and simulate real-world scenarios, leading to its development in three distinct stages, each serving a specific purpose and building upon the previous one.
 
-Construit din perspectiva utilizatorului, proiectul simulează experiența unui client într-o aplicație de shopping online. Utilizatorul trebuie să se înregistreze sau să se conecteze la contul personal pentru a plasa comenzi și a accesa date despre produsele disponibile. Acesta poate să vizualizeze mai multe categorii de produse și să dea review-uri acestora. Proiectul surprinde o multitudine de funcționalități printre care se numără și actualizarea stocului produselor în timp real (în funcție de comenzile plasate),  calcularea unui procent de cashback la fiecare comandă în funcție de suma totală, calcularea ratingului mediu al fiecărui produs în funcție de review-urile utilizatorilor, adăugarea și eliminarea produselor din coșul de cumpărături sau din lista de dorințe, posibilitatea reactualizării informațiilor despre useri (email, parolă, username) și multe altele.
+Enriched with my passion for fragrances, the project was customized to emulate the immersive experience of shopping for perfumes in a virtual environment. Users interact with the application through a console menu interface, allowing them to browse products, add items to their cart, manage their orders, and perform other shopping-related tasks.
+
+<hr />  
+
+## :crystal_ball::sparkles: Welcome to my perfumery shop :sparkles::crystal_ball:  
+
+### :blossom:[STAGE I](https://github.com/LVanesa/Proiect---POO/tree/main/Etapa%20I):
+
+In the initial phase, the primary objective was to establish the project's foundational elements by creating a few initial classes such as Product, Date, Order, ShoppingCart, and User. This stage aimed to master dynamic memory allocation (i.e. working with pointers to data/objects, and arrays of pointers). Consequently, classes from the STL library (such as vector, string) were not utilized. Here, the groundwork for the application's business logic was laid, paving the way for subsequent development phases.
+
+
 <hr />
 
-###  :blossom:[ETAPA I](https://github.com/LVanesa/Proiect---POO/tree/main/Etapa%20I):
-În această etapă am pus bazele proiectului construind clasele principale ale aplicației: clasa Product, clasa Date, clasa Order, clasa ShoppingCart și clasa User. În această primă etapă nu am folosit clase din biblioteca STL (i.e. vector, string) și am învățat să gestionez în mod corect alocarea dinamică a caracterelor, pointerilor la date/obiecte, și a array-urilor de pointeri. Aici am definit primele aspecte ce țin de logica de business ale aplicației mele, printre care se numără și funcționalitățile enumerate în descrierea de mai sus. 
+### :blossom:[STAGE II](https://github.com/LVanesa/Proiect---POO/tree/main/Etapa%20II)
+
+The second stage marked a progression to more advanced OOP concepts, including inheritance, interfaces, abstract classes, and exceptions. This phase involved implementing complex features and refining the project's architecture. Through polymorphism and virtual methods, I enhanced the application's flexibility and extensibility. The emphasis was on building a solid structure capable of accommodating future improvements and modifications.
+
+
 <hr />
 
-### :blossom:[ETAPA II](https://github.com/LVanesa/Proiect---POO/tree/main/Etapa%20II)
-Probabil cea mai complexă etapă în ceea ce privește implementarea conceptelor POO. În această parte am utilizat diverse tipuri de moștenire, interfețe, clase abstracte, sau excepții.  Am identificat mai multe situații de polimorfism și am suprascris metode din clasele de bază prin virtualizare. Aceste funcționalități noi mi-au permis o flexibilitate mai mare prin reutilizarea și modificarea codului.  
-<hr />
+### :blossom:[STAGE III](https://github.com/LVanesa/Proiect---POO/tree/main/Etapa%20III)
+In the final stage, the project was brought to completion by introducing additional functionalities and optimizing its design. A singleton menu design pattern was adopted to streamline testing and improve user interaction. Template methods were integrated to parse data from external files, enhancing the application's realism and usability. This phase aimed to refine the project's codebase, ensuring robustness, maintainability, and scalability.
 
-### :blossom:[ETAPA III](https://github.com/LVanesa/Proiect---POO/tree/main/Etapa%20III)
-În cele din urmă codul proiectului este completat prin adăugarea unui design pattern și anume un meniu singleton ce permite testarea tuturor utilităților aplicației. De asemenea, tot în această formă finală se regăsesc și câteva metode template care permit parsarea  datelor din fișierele ce conțin informații despre diferite tipuri de produse, utilizatori sau recenzii. Astfel, cu ajutorul acestora utilizatorul se poate bucura de o experiență mai apropiată celei din viața reală. 
-
-
-
+Through these iterative stages, the project evolved from a basic concept into a comprehensive online shopping simulation app. Each stage deepened my understanding of OOP principles, improved my programming skills, and showcased my ability to develop practical software solutions in line with industry standards.
